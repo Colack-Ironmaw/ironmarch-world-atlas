@@ -2,9 +2,9 @@ const fs=require('node:fs'),path=require('node:path'),assert=require('node:asser
 const root=path.resolve(__dirname,'..'),read=n=>JSON.parse(fs.readFileSync(path.join(root,'data',n+'.json'),'utf8'));
 const maps=read('maps'),locations=read('locations'),routes=read('routes'),factions=read('factions'),history=read('history');
 for(const [name,rows] of Object.entries({maps,locations,routes,factions,history})){assert.equal(new Set(rows.map(x=>x.id)).size,rows.length,`${name}: duplicate IDs`);for(const r of rows)assert.match(r.id,/^[a-zA-Z0-9-]+$/);}
-const locationFields=['id','name','type','region','power','description','canon','knowledge','source','placementNote','positions'];
+const locationFields=['id','name','subtype','type','region','power','description','canon','knowledge','source','placementNote','positions'];
 for(const l of locations){for(const k of Object.keys(l))assert(locationFields.includes(k),`Unexpected public location field ${k}`);assert(['known','visited','rumor'].includes(l.knowledge));assert(l.source);for(const [mapId,p]of Object.entries(l.positions)){const m=maps.find(m=>m.id===mapId);assert(m,`Unknown frame ${mapId}`);assert(p.x>=0&&p.y>=0&&p.x<=m.width&&p.y<=m.height);assert(p.evidence&&p.confidence);assert(['provisional','mapped-symbol','confirmed'].includes(p.status));if(p.status==='provisional')assert(p.radius>0);}}
-for(const m of maps){assert(fs.existsSync(path.join(root,m.asset)));assert.equal(m.calibration,null,'No source-backed distance calibration exists yet');}
+for(const m of maps){assert(fs.existsSync(path.join(root,m.asset)));assert.equal(m.calibration,null,'No source-backed distance calibration exists yet');if(m.overlay){assert(fs.existsSync(path.join(root,m.overlay.asset)));assert.equal(m.overlay.width,m.width);assert.equal(m.overlay.height,m.height);assert(m.overlay.source&&m.overlay.sha256);}}
 for(const r of routes){assert(locations.some(l=>l.id===r.from));assert(locations.some(l=>l.id===r.to));assert(r.source);if(r.geometry)for(const frame of Object.keys(r.geometry))assert(maps.some(m=>m.id===frame));}
 function walk(dir){return fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(path.join(dir,e.name)):[path.join(dir,e.name)])}
 const prohibitedNames=/(seed\.js|world_atlas\.json|sources\/|chat\.txt|\.docx$|private|dm[-_])/i;

@@ -2,15 +2,17 @@
 
 Interactive player atlas at https://colack-ironmaw.github.io/ironmarch-world-atlas/ . This repository now serves Varelden. The prior Ironmarch atlas remains in Git history at commit `6ef0c20e8372e3eb93677fdb65866ecac8d830c9`; its campaign records are not mixed into Varelden.
 
-The default geographic background is the exact uploaded Varelden HD Map, optimized at its original 2048 × 1361 dimensions. Original SHA-256: `5994ec3608d84f22d574197f54e4d8636e5ba4cff583c221ed42575c8b3f048c`. WebP reduces transfer size without generating terrain, labels or settlements. The original is retained locally. Upscaling would add pixels without source detail; tiles are unnecessary for this source size.
+The default geographic background is the newly supplied Varelden HD Map, optimized at its native 3932 × 2614 dimensions. Original SHA-256: `c4b46b892584911d1ec889a52a966418d110ef6ba6652ba71ab57db1b0460c53`. WebP reduces transfer size without generating terrain, labels or settlements. The original remains unchanged on the user's computer. The political overlay has the identical canvas and real transparency; its pixels are preserved with lossless WebP compression.
 
 ## Use
 
 Drag to pan, scroll or use +/− to zoom, and use Fit chart or the View menu to navigate. Search by place, region or political power. Click a marker or search result for evidence and placement confidence. Keyboard arrows pan the focused map; Home fits it. Bookmarks stay in this browser. Share links preserve the selected place and chart. Touch dragging and zoom buttons work on mobile.
 
-The HD chart and political reference have independent coordinate frames. Political pins follow printed stars, with an estimated ±4 pixel digitization tolerance. HD regional anchors are provisional, with dashed visual uncertainty guides. Those circles are not political boundaries or statistical estimates. No political outlines have been transformed onto the HD background. Decorative buildings do not prove named city locations.
+The HD chart and older political reference retain independent coordinate frames. Political-reference pins follow printed stars, with an estimated ±4 pixel digitization tolerance. The HD image now supports the user's matching political overlay directly, with a separate on/off control and 0–100% opacity. Switching it does not move pins or change the view. It is not transferred from the older political chart. Source artwork labels remain part of the political layer.
 
-Wrenford and five local places are searchable but unpinned: Revision 05 leaves their exact placement unresolved. Three local travel relationships preserve source directions and day estimates without inventing road polylines, miles or kilometers. Known does not mean visited. No campaign time has been advanced.
+Eight city/seat tokens on the HD chart are explicitly provisional proposals within the supplied political territories, guided by broad relative positions on the older chart. Their exact positions are not confirmed by the overlay. Each token carries low confidence and evidence explaining this limitation. HD regional anchors are also provisional. Dashed uncertainty circles are display guides, not surveyed boundaries or statistical estimates. Decorative buildings do not prove named city locations. City, village/town, watchtower and region token shapes are supported; tokens stay legible at a constant screen size while zooming and respond to mouse, touch and keyboard selection.
+
+Wrenford and five local places are searchable but unpinned: Revision 05 leaves their exact placement unresolved. Their village, town, estate, watchtower and region classifications are retained for future reviewed placements. Three local travel relationships preserve source directions and day estimates without inventing road polylines, miles or kilometers. Known does not mean visited. No campaign time has been advanced.
 
 ## Files and maintenance
 

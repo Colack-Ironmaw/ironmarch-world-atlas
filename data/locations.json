@@ -9,7 +9,7 @@
     "canon": "mapped",
     "knowledge": "known",
     "source": "Campaign Bible Volume B Revision 05, B-C02; original political atlas printed label.",
-    "placementNote": "The name is mapped on the political reference. Its HD position has not been registered.",
+    "placementNote": "Political chart symbol is mapped; the HD token is a separate provisional proposal.",
     "positions": {
       "political": {
         "x": 318,
@@ -17,8 +17,17 @@
         "status": "mapped-symbol",
         "confidence": "high",
         "evidence": "Manually read center of the printed capital/seat star on the original 1536 × 1024 political reference; digitization tolerance ±4 pixels. This is an artwork position, not a surveyed coordinate."
+      },
+      "hd": {
+        "x": 691,
+        "y": 1056,
+        "radius": 140,
+        "status": "provisional",
+        "confidence": "low",
+        "evidence": "Proposed HD location within the named power on the user-supplied border overlay, guided by the relative position on the older political reference (B-C02). Manually proposed; not a registered transfer, printed HD label, surveyed coordinate or approved final placement. Review before treating as fixed canon."
       }
-    }
+    },
+    "subtype": "city"
   },
   {
     "id": "V-CITY-caer-rendal",
@@ -30,7 +39,7 @@
     "canon": "mapped",
     "knowledge": "known",
     "source": "Campaign Bible Volume B Revision 05, B-C02; original political atlas printed label.",
-    "placementNote": "The name is mapped on the political reference. Its HD position has not been registered.",
+    "placementNote": "Political chart symbol is mapped; the HD token is a separate provisional proposal.",
     "positions": {
       "political": {
         "x": 543,
@@ -38,8 +47,17 @@
         "status": "mapped-symbol",
         "confidence": "high",
         "evidence": "Manually read center of the printed capital/seat star on the original 1536 × 1024 political reference; digitization tolerance ±4 pixels. This is an artwork position, not a surveyed coordinate."
+      },
+      "hd": {
+        "x": 1382,
+        "y": 1248,
+        "radius": 140,
+        "status": "provisional",
+        "confidence": "low",
+        "evidence": "Proposed HD location within the named power on the user-supplied border overlay, guided by the relative position on the older political reference (B-C02). Manually proposed; not a registered transfer, printed HD label, surveyed coordinate or approved final placement. Review before treating as fixed canon."
       }
-    }
+    },
+    "subtype": "city"
   },
   {
     "id": "V-CITY-oakshield",
@@ -51,7 +69,7 @@
     "canon": "mapped",
     "knowledge": "known",
     "source": "Campaign Bible Volume B Revision 05, B-C02; original political atlas printed label.",
-    "placementNote": "The name is mapped on the political reference. Its HD position has not been registered.",
+    "placementNote": "Political chart symbol is mapped; the HD token is a separate provisional proposal.",
     "positions": {
       "political": {
         "x": 613,
@@ -59,8 +77,17 @@
         "status": "mapped-symbol",
         "confidence": "high",
         "evidence": "Manually read center of the printed capital/seat star on the original 1536 × 1024 political reference; digitization tolerance ±4 pixels. This is an artwork position, not a surveyed coordinate."
+      },
+      "hd": {
+        "x": 1824,
+        "y": 557,
+        "radius": 140,
+        "status": "provisional",
+        "confidence": "low",
+        "evidence": "Proposed HD location within the named power on the user-supplied border overlay, guided by the relative position on the older political reference (B-C02). Manually proposed; not a registered transfer, printed HD label, surveyed coordinate or approved final placement. Review before treating as fixed canon."
       }
-    }
+    },
+    "subtype": "city"
   },
   {
     "id": "V-CITY-solcarth",
@@ -72,7 +99,7 @@
     "canon": "mapped",
     "knowledge": "known",
     "source": "Campaign Bible Volume B Revision 05, B-C02; original political atlas printed label.",
-    "placementNote": "The name is mapped on the political reference. Its HD position has not been registered.",
+    "placementNote": "Political chart symbol is mapped; the HD token is a separate provisional proposal.",
     "positions": {
       "political": {
         "x": 923,
@@ -80,8 +107,17 @@
         "status": "mapped-symbol",
         "confidence": "high",
         "evidence": "Manually read center of the printed capital/seat star on the original 1536 × 1024 political reference; digitization tolerance ±4 pixels. This is an artwork position, not a surveyed coordinate."
+      },
+      "hd": {
+        "x": 2458,
+        "y": 1191,
+        "radius": 140,
+        "status": "provisional",
+        "confidence": "low",
+        "evidence": "Proposed HD location within the named power on the user-supplied border overlay, guided by the relative position on the older political reference (B-C02). Manually proposed; not a registered transfer, printed HD label, surveyed coordinate or approved final placement. Review before treating as fixed canon."
       }
-    }
+    },
+    "subtype": "city"
   },
   {
     "id": "V-CITY-stonegate",
@@ -93,7 +129,7 @@
     "canon": "mapped",
     "knowledge": "known",
     "source": "Campaign Bible Volume B Revision 05, B-C02; original political atlas printed label.",
-    "placementNote": "The name is mapped on the political reference. Its HD position has not been registered.",
+    "placementNote": "Political chart symbol is mapped; the HD token is a separate provisional proposal.",
     "positions": {
       "political": {
         "x": 942,
@@ -101,8 +137,17 @@
         "status": "mapped-symbol",
         "confidence": "high",
         "evidence": "Manually read center of the printed capital/seat star on the original 1536 × 1024 political reference; digitization tolerance ±4 pixels. This is an artwork position, not a surveyed coordinate."
+      },
+      "hd": {
+        "x": 2899,
+        "y": 749,
+        "radius": 140,
+        "status": "provisional",
+        "confidence": "low",
+        "evidence": "Proposed HD location within the named power on the user-supplied border overlay, guided by the relative position on the older political reference (B-C02). Manually proposed; not a registered transfer, printed HD label, surveyed coordinate or approved final placement. Review before treating as fixed canon."
       }
-    }
+    },
+    "subtype": "city"
   },
   {
     "id": "V-CITY-demeris",
@@ -114,7 +159,7 @@
     "canon": "mapped",
     "knowledge": "known",
     "source": "Campaign Bible Volume B Revision 05, B-C02; original political atlas printed label.",
-    "placementNote": "The name is mapped on the political reference. Its HD position has not been registered.",
+    "placementNote": "Political chart symbol is mapped; the HD token is a separate provisional proposal.",
     "positions": {
       "political": {
         "x": 1160,
@@ -122,8 +167,17 @@
         "status": "mapped-symbol",
         "confidence": "high",
         "evidence": "Manually read center of the printed capital/seat star on the original 1536 × 1024 political reference; digitization tolerance ±4 pixels. This is an artwork position, not a surveyed coordinate."
+      },
+      "hd": {
+        "x": 3245,
+        "y": 1191,
+        "radius": 140,
+        "status": "provisional",
+        "confidence": "low",
+        "evidence": "Proposed HD location within the named power on the user-supplied border overlay, guided by the relative position on the older political reference (B-C02). Manually proposed; not a registered transfer, printed HD label, surveyed coordinate or approved final placement. Review before treating as fixed canon."
       }
-    }
+    },
+    "subtype": "city"
   },
   {
     "id": "V-CITY-khordum",
@@ -135,7 +189,7 @@
     "canon": "mapped",
     "knowledge": "known",
     "source": "Campaign Bible Volume B Revision 05, B-C02; original political atlas printed label.",
-    "placementNote": "The name is mapped on the political reference. Its HD position has not been registered.",
+    "placementNote": "Political chart symbol is mapped; the HD token is a separate provisional proposal.",
     "positions": {
       "political": {
         "x": 614,
@@ -143,8 +197,17 @@
         "status": "mapped-symbol",
         "confidence": "high",
         "evidence": "Manually read center of the printed capital/seat star on the original 1536 × 1024 political reference; digitization tolerance ±4 pixels. This is an artwork position, not a surveyed coordinate."
+      },
+      "hd": {
+        "x": 1574,
+        "y": 2017,
+        "radius": 140,
+        "status": "provisional",
+        "confidence": "low",
+        "evidence": "Proposed HD location within the named power on the user-supplied border overlay, guided by the relative position on the older political reference (B-C02). Manually proposed; not a registered transfer, printed HD label, surveyed coordinate or approved final placement. Review before treating as fixed canon."
       }
-    }
+    },
+    "subtype": "city"
   },
   {
     "id": "V-CITY-dun-cindra",
@@ -156,7 +219,7 @@
     "canon": "mapped",
     "knowledge": "known",
     "source": "Campaign Bible Volume B Revision 05, B-C02; original political atlas printed label.",
-    "placementNote": "The name is mapped on the political reference. Its HD position has not been registered.",
+    "placementNote": "Political chart symbol is mapped; the HD token is a separate provisional proposal.",
     "positions": {
       "political": {
         "x": 915,
@@ -164,8 +227,17 @@
         "status": "mapped-symbol",
         "confidence": "high",
         "evidence": "Manually read center of the printed capital/seat star on the original 1536 × 1024 political reference; digitization tolerance ±4 pixels. This is an artwork position, not a surveyed coordinate."
+      },
+      "hd": {
+        "x": 2726,
+        "y": 1997,
+        "radius": 140,
+        "status": "provisional",
+        "confidence": "low",
+        "evidence": "Proposed HD location within the named power on the user-supplied border overlay, guided by the relative position on the older political reference (B-C02). Manually proposed; not a registered transfer, printed HD label, surveyed coordinate or approved final placement. Review before treating as fixed canon."
       }
-    }
+    },
+    "subtype": "city"
   },
   {
     "id": "V-REG-thornweald",
@@ -180,14 +252,15 @@
     "placementNote": "Approximate visual association only; no political boundary or precise extent is asserted.",
     "positions": {
       "hd": {
-        "x": 880,
-        "y": 260,
-        "radius": 180,
+        "x": 1690,
+        "y": 499,
+        "radius": 346,
         "status": "provisional",
         "confidence": "low",
         "evidence": "Broad relative region from B-C01/B-W01, associated manually with visible HD terrain. Dashed circle is a display uncertainty guide, not a measured confidence interval or border."
       }
-    }
+    },
+    "subtype": "region"
   },
   {
     "id": "V-REG-brackenfold",
@@ -202,14 +275,15 @@
     "placementNote": "Approximate visual association only; no political boundary or precise extent is asserted.",
     "positions": {
       "hd": {
-        "x": 560,
-        "y": 360,
-        "radius": 120,
+        "x": 1075,
+        "y": 691,
+        "radius": 230,
         "status": "provisional",
         "confidence": "low",
         "evidence": "Broad relative region from B-C01/B-W01, associated manually with visible HD terrain. Dashed circle is a display uncertainty guide, not a measured confidence interval or border."
       }
-    }
+    },
+    "subtype": "region"
   },
   {
     "id": "V-REG-eldenmere",
@@ -224,14 +298,15 @@
     "placementNote": "Approximate visual association only; no political boundary or precise extent is asserted.",
     "positions": {
       "hd": {
-        "x": 850,
-        "y": 570,
-        "radius": 160,
+        "x": 1632,
+        "y": 1095,
+        "radius": 307,
         "status": "provisional",
         "confidence": "low",
         "evidence": "Broad relative region from B-C01/B-W01, associated manually with visible HD terrain. Dashed circle is a display uncertainty guide, not a measured confidence interval or border."
       }
-    }
+    },
+    "subtype": "region"
   },
   {
     "id": "V-REG-vaelcrest",
@@ -246,14 +321,15 @@
     "placementNote": "Approximate visual association only; no political boundary or precise extent is asserted.",
     "positions": {
       "hd": {
-        "x": 780,
-        "y": 850,
-        "radius": 170,
+        "x": 1498,
+        "y": 1633,
+        "radius": 327,
         "status": "provisional",
         "confidence": "low",
         "evidence": "Broad relative region from B-C01/B-W01, associated manually with visible HD terrain. Dashed circle is a display uncertainty guide, not a measured confidence interval or border."
       }
-    }
+    },
+    "subtype": "region"
   },
   {
     "id": "V-REG-kharun",
@@ -268,14 +344,15 @@
     "placementNote": "Approximate visual association only; no political boundary or precise extent is asserted.",
     "positions": {
       "hd": {
-        "x": 1530,
-        "y": 355,
-        "radius": 150,
+        "x": 3206,
+        "y": 442,
+        "radius": 288,
         "status": "provisional",
         "confidence": "low",
         "evidence": "Broad relative region from B-C01/B-W01, associated manually with visible HD terrain. Dashed circle is a display uncertainty guide, not a measured confidence interval or border."
       }
-    }
+    },
+    "subtype": "region"
   },
   {
     "id": "V-REG-cindervale",
@@ -290,14 +367,15 @@
     "placementNote": "Approximate visual association only; no political boundary or precise extent is asserted.",
     "positions": {
       "hd": {
-        "x": 1390,
-        "y": 1050,
-        "radius": 170,
+        "x": 2900,
+        "y": 2200,
+        "radius": 327,
         "status": "provisional",
         "confidence": "low",
         "evidence": "Broad relative region from B-C01/B-W01, associated manually with visible HD terrain. Dashed circle is a display uncertainty guide, not a measured confidence interval or border."
       }
-    }
+    },
+    "subtype": "region"
   },
   {
     "id": "V-LOCAL-wrenford",
@@ -310,7 +388,8 @@
     "knowledge": "known",
     "source": "Campaign Bible Volume B Revision 05 B-C05; Volume D D-W02; adopted starting-region discussion in campaign log.",
     "placementNote": "Exact atlas position unresolved (B-C05, B-W01, D-C08). No marker added. Relative travel statements do not establish a surveyed road or a kilometer distance.",
-    "positions": {}
+    "positions": {},
+    "subtype": "village"
   },
   {
     "id": "V-LOCAL-wrenwater",
@@ -323,7 +402,8 @@
     "knowledge": "known",
     "source": "Campaign Bible Volume B Revision 05 B-C05; Volume D D-W02; adopted starting-region discussion in campaign log.",
     "placementNote": "Exact atlas position unresolved (B-C05, B-W01, D-C08). No marker added. Relative travel statements do not establish a surveyed road or a kilometer distance.",
-    "positions": {}
+    "positions": {},
+    "subtype": "region"
   },
   {
     "id": "V-LOCAL-dunbarrow",
@@ -336,7 +416,8 @@
     "knowledge": "known",
     "source": "Campaign Bible Volume B Revision 05 B-C05; Volume D D-W02; adopted starting-region discussion in campaign log.",
     "placementNote": "Exact atlas position unresolved (B-C05, B-W01, D-C08). No marker added. Relative travel statements do not establish a surveyed road or a kilometer distance.",
-    "positions": {}
+    "positions": {},
+    "subtype": "town"
   },
   {
     "id": "V-LOCAL-harrowmere",
@@ -349,7 +430,8 @@
     "knowledge": "known",
     "source": "Campaign Bible Volume B Revision 05 B-C05; Volume D D-W02; adopted starting-region discussion in campaign log.",
     "placementNote": "Exact atlas position unresolved (B-C05, B-W01, D-C08). No marker added. Relative travel statements do not establish a surveyed road or a kilometer distance.",
-    "positions": {}
+    "positions": {},
+    "subtype": "estate"
   },
   {
     "id": "V-LOCAL-oldwood",
@@ -362,7 +444,8 @@
     "knowledge": "known",
     "source": "Campaign Bible Volume B Revision 05 B-C05; Volume D D-W02; adopted starting-region discussion in campaign log.",
     "placementNote": "Exact atlas position unresolved (B-C05, B-W01, D-C08). No marker added. Relative travel statements do not establish a surveyed road or a kilometer distance.",
-    "positions": {}
+    "positions": {},
+    "subtype": "region"
   },
   {
     "id": "V-LOCAL-westward-watch",
@@ -375,6 +458,7 @@
     "knowledge": "known",
     "source": "Campaign Bible Volume B Revision 05 B-C05; Volume D D-W02; adopted starting-region discussion in campaign log.",
     "placementNote": "Exact atlas position unresolved (B-C05, B-W01, D-C08). No marker added. Relative travel statements do not establish a surveyed road or a kilometer distance.",
-    "positions": {}
+    "positions": {},
+    "subtype": "watchtower"
   }
 ]

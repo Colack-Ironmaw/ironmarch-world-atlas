@@ -4,12 +4,12 @@
     "name": "Varelden · HD geographic chart",
     "shortName": "HD chart",
     "asset": "assets/varelden-hd.webp",
-    "width": 2048,
-    "height": 1361,
-    "source": "Varelden HD Map (uploaded original), 2048 × 1361; SHA-256 5994ec3608d84f22d574197f54e4d8636e5ba4cff583c221ed42575c8b3f048c",
+    "width": 3932,
+    "height": 2614,
+    "source": "User-supplied Varelden HD Map.png, native 3932 × 2614; SHA-256 c4b46b892584911d1ec889a52a966418d110ef6ba6652ba71ab57db1b0460c53",
     "coordinateSystem": "Source image pixels: x east, y south. Not surveyed longitude/latitude.",
     "calibration": null,
-    "caption": "Original HD geography · regional anchors provisional",
+    "caption": "HD map · user-supplied political layer · dashed location pins provisional",
     "views": [
       {
         "id": "all",
@@ -17,41 +17,52 @@
         "bounds": [
           0,
           0,
-          2048,
-          1361
+          3932,
+          2614
         ]
       },
       {
         "id": "west",
         "name": "Western uplands · broad view",
         "bounds": [
-          280,
-          270,
-          850,
-          660
+          538,
+          519,
+          1632,
+          1268
         ]
       },
       {
         "id": "north",
         "name": "Northern forests & steppe",
         "bounds": [
-          400,
-          50,
-          1430,
-          620
+          768,
+          96,
+          2745,
+          1191
         ]
       },
       {
         "id": "south",
         "name": "Southern mountains & expanse",
         "bounds": [
-          300,
-          650,
-          1450,
-          650
+          576,
+          1248,
+          2784,
+          1248
         ]
       }
-    ]
+    ],
+    "overlay": {
+      "id": "political-borders",
+      "name": "Political borders",
+      "asset": "assets/varelden-border-overlay.webp",
+      "width": 3932,
+      "height": 2614,
+      "source": "User-supplied HD political borders overlay and matching composite reference",
+      "sha256": "e066fc3eb4f53d4fb622131e36aae0974fab3eaa8e0d6a251e78a5c5ffc8a9b5",
+      "status": "user-supplied boundaries; not a surveyed legal border",
+      "defaultOpacity": 0.65
+    }
   },
   {
     "id": "political",

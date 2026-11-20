@@ -5,5 +5,12 @@
     "campaignDate": null,
     "type": "atlas-maintenance",
     "description": "Varelden player atlas established from reviewed Revision 05 geographic records. No campaign time advanced and no visits or conquests assumed."
+  },
+  {
+    "id": "V-ATLAS-BORDER-LAYERS",
+    "recordedAt": "2026-11-20",
+    "campaignDate": null,
+    "type": "atlas-maintenance",
+    "description": "Added user-supplied HD political overlay and native-resolution artwork, independently toggleable layers, and selectable city tokens. HD city positions are provisional review proposals; no discoveries, journeys or campaign time inferred."
   }
 ]
