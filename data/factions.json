@@ -1,0 +1,65 @@
+[
+  {
+    "id": "V-POWER-port-caldreth",
+    "name": "Greyhook League",
+    "source": "Volume B Revision 05 B-C02",
+    "status": "mapped political power",
+    "territoryGeometry": null
+  },
+  {
+    "id": "V-POWER-caer-rendal",
+    "name": "Kingdom of Aldraven",
+    "source": "Volume B Revision 05 B-C02",
+    "status": "mapped political power",
+    "territoryGeometry": null
+  },
+  {
+    "id": "V-POWER-oakshield",
+    "name": "Thornmarch Compact",
+    "source": "Volume B Revision 05 B-C02",
+    "status": "mapped political power",
+    "territoryGeometry": null
+  },
+  {
+    "id": "V-POWER-solcarth",
+    "name": "Covenant of Aurelorn",
+    "source": "Volume B Revision 05 B-C02",
+    "status": "mapped political power",
+    "territoryGeometry": null
+  },
+  {
+    "id": "V-POWER-stonegate",
+    "name": "Kharun Marches",
+    "source": "Volume B Revision 05 B-C02",
+    "status": "mapped political power",
+    "territoryGeometry": null
+  },
+  {
+    "id": "V-POWER-demeris",
+    "name": "Terenic Principalities",
+    "source": "Volume B Revision 05 B-C02",
+    "status": "mapped political power",
+    "territoryGeometry": null
+  },
+  {
+    "id": "V-POWER-khordum",
+    "name": "Vaelcrest Holds",
+    "source": "Volume B Revision 05 B-C02",
+    "status": "mapped political power",
+    "territoryGeometry": null
+  },
+  {
+    "id": "V-POWER-dun-cindra",
+    "name": "Cindervale Successor States",
+    "source": "Volume B Revision 05 B-C02",
+    "status": "mapped political power",
+    "territoryGeometry": null
+  },
+  {
+    "id": "V-POWER-kharun-horse-clans",
+    "name": "Kharun Horse Clans",
+    "source": "Volume B Revision 05 B-C02",
+    "status": "mapped political power",
+    "territoryGeometry": null
+  }
+]

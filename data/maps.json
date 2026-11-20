@@ -1,0 +1,110 @@
+[
+  {
+    "id": "hd",
+    "name": "Varelden · HD geographic chart",
+    "shortName": "HD chart",
+    "asset": "assets/varelden-hd.webp",
+    "width": 2048,
+    "height": 1361,
+    "source": "Varelden HD Map (uploaded original), 2048 × 1361; SHA-256 5994ec3608d84f22d574197f54e4d8636e5ba4cff583c221ed42575c8b3f048c",
+    "coordinateSystem": "Source image pixels: x east, y south. Not surveyed longitude/latitude.",
+    "calibration": null,
+    "caption": "Original HD geography · regional anchors provisional",
+    "views": [
+      {
+        "id": "all",
+        "name": "Whole continent",
+        "bounds": [
+          0,
+          0,
+          2048,
+          1361
+        ]
+      },
+      {
+        "id": "west",
+        "name": "Western uplands · broad view",
+        "bounds": [
+          280,
+          270,
+          850,
+          660
+        ]
+      },
+      {
+        "id": "north",
+        "name": "Northern forests & steppe",
+        "bounds": [
+          400,
+          50,
+          1430,
+          620
+        ]
+      },
+      {
+        "id": "south",
+        "name": "Southern mountains & expanse",
+        "bounds": [
+          300,
+          650,
+          1450,
+          650
+        ]
+      }
+    ]
+  },
+  {
+    "id": "political",
+    "name": "Varelden · political reference",
+    "shortName": "political reference",
+    "asset": "assets/varelden-political.webp",
+    "width": 1536,
+    "height": 1024,
+    "source": "Varelden: The Recovering World — Political Atlas; Volume B Revision 05 B-C02.",
+    "coordinateSystem": "Independent source image pixels. No transform to HD chart.",
+    "calibration": null,
+    "caption": "Independent political chart · pins follow printed symbols",
+    "views": [
+      {
+        "id": "all",
+        "name": "Whole political chart",
+        "bounds": [
+          0,
+          0,
+          1536,
+          1024
+        ]
+      },
+      {
+        "id": "aldraven",
+        "name": "Aldraven & western neighbors",
+        "bounds": [
+          180,
+          270,
+          560,
+          400
+        ]
+      },
+      {
+        "id": "kharun",
+        "name": "Kharun frontier",
+        "bounds": [
+          720,
+          160,
+          530,
+          340
+        ]
+      },
+      {
+        "id": "south",
+        "name": "Vaelcrest & Cindervale",
+        "bounds": [
+          250,
+          500,
+          900,
+          400
+        ]
+      }
+    ]
+  }
+]

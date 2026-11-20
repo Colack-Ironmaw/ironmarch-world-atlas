@@ -1,0 +1,380 @@
+[
+  {
+    "id": "V-CITY-port-caldreth",
+    "name": "Port Caldreth",
+    "type": "settlement",
+    "region": "Greyhook League",
+    "power": "Greyhook League",
+    "description": "A marked port on the western coast.",
+    "canon": "mapped",
+    "knowledge": "known",
+    "source": "Campaign Bible Volume B Revision 05, B-C02; original political atlas printed label.",
+    "placementNote": "The name is mapped on the political reference. Its HD position has not been registered.",
+    "positions": {
+      "political": {
+        "x": 318,
+        "y": 467,
+        "status": "mapped-symbol",
+        "confidence": "high",
+        "evidence": "Manually read center of the printed capital/seat star on the original 1536 × 1024 political reference; digitization tolerance ±4 pixels. This is an artwork position, not a surveyed coordinate."
+      }
+    }
+  },
+  {
+    "id": "V-CITY-caer-rendal",
+    "name": "Caer Rendal",
+    "type": "settlement",
+    "region": "Kingdom of Aldraven",
+    "power": "Kingdom of Aldraven",
+    "description": "A mapped administrative center of the Kingdom of Aldraven.",
+    "canon": "mapped",
+    "knowledge": "known",
+    "source": "Campaign Bible Volume B Revision 05, B-C02; original political atlas printed label.",
+    "placementNote": "The name is mapped on the political reference. Its HD position has not been registered.",
+    "positions": {
+      "political": {
+        "x": 543,
+        "y": 498,
+        "status": "mapped-symbol",
+        "confidence": "high",
+        "evidence": "Manually read center of the printed capital/seat star on the original 1536 × 1024 political reference; digitization tolerance ±4 pixels. This is an artwork position, not a surveyed coordinate."
+      }
+    }
+  },
+  {
+    "id": "V-CITY-oakshield",
+    "name": "Oakshield",
+    "type": "settlement",
+    "region": "Thornmarch Compact",
+    "power": "Thornmarch Compact",
+    "description": "A marked seat in the Thornweald region.",
+    "canon": "mapped",
+    "knowledge": "known",
+    "source": "Campaign Bible Volume B Revision 05, B-C02; original political atlas printed label.",
+    "placementNote": "The name is mapped on the political reference. Its HD position has not been registered.",
+    "positions": {
+      "political": {
+        "x": 613,
+        "y": 297,
+        "status": "mapped-symbol",
+        "confidence": "high",
+        "evidence": "Manually read center of the printed capital/seat star on the original 1536 × 1024 political reference; digitization tolerance ±4 pixels. This is an artwork position, not a surveyed coordinate."
+      }
+    }
+  },
+  {
+    "id": "V-CITY-solcarth",
+    "name": "Solcarth",
+    "type": "settlement",
+    "region": "Covenant of Aurelorn",
+    "power": "Covenant of Aurelorn",
+    "description": "The mapped seat of the Covenant of Aurelorn.",
+    "canon": "mapped",
+    "knowledge": "known",
+    "source": "Campaign Bible Volume B Revision 05, B-C02; original political atlas printed label.",
+    "placementNote": "The name is mapped on the political reference. Its HD position has not been registered.",
+    "positions": {
+      "political": {
+        "x": 923,
+        "y": 520,
+        "status": "mapped-symbol",
+        "confidence": "high",
+        "evidence": "Manually read center of the printed capital/seat star on the original 1536 × 1024 political reference; digitization tolerance ±4 pixels. This is an artwork position, not a surveyed coordinate."
+      }
+    }
+  },
+  {
+    "id": "V-CITY-stonegate",
+    "name": "Stonegate",
+    "type": "settlement",
+    "region": "Kharun Marches",
+    "power": "Kharun Marches",
+    "description": "A marked frontier seat of the Kharun Marches.",
+    "canon": "mapped",
+    "knowledge": "known",
+    "source": "Campaign Bible Volume B Revision 05, B-C02; original political atlas printed label.",
+    "placementNote": "The name is mapped on the political reference. Its HD position has not been registered.",
+    "positions": {
+      "political": {
+        "x": 942,
+        "y": 365,
+        "status": "mapped-symbol",
+        "confidence": "high",
+        "evidence": "Manually read center of the printed capital/seat star on the original 1536 × 1024 political reference; digitization tolerance ±4 pixels. This is an artwork position, not a surveyed coordinate."
+      }
+    }
+  },
+  {
+    "id": "V-CITY-demeris",
+    "name": "Demeris",
+    "type": "settlement",
+    "region": "Terenic Principalities",
+    "power": "Terenic Principalities",
+    "description": "A marked seat of the Terenic Principalities.",
+    "canon": "mapped",
+    "knowledge": "known",
+    "source": "Campaign Bible Volume B Revision 05, B-C02; original political atlas printed label.",
+    "placementNote": "The name is mapped on the political reference. Its HD position has not been registered.",
+    "positions": {
+      "political": {
+        "x": 1160,
+        "y": 526,
+        "status": "mapped-symbol",
+        "confidence": "high",
+        "evidence": "Manually read center of the printed capital/seat star on the original 1536 × 1024 political reference; digitization tolerance ±4 pixels. This is an artwork position, not a surveyed coordinate."
+      }
+    }
+  },
+  {
+    "id": "V-CITY-khordum",
+    "name": "Khordum",
+    "type": "settlement",
+    "region": "Vaelcrest Holds",
+    "power": "Vaelcrest Holds",
+    "description": "A mapped seat among the southern mountain holds.",
+    "canon": "mapped",
+    "knowledge": "known",
+    "source": "Campaign Bible Volume B Revision 05, B-C02; original political atlas printed label.",
+    "placementNote": "The name is mapped on the political reference. Its HD position has not been registered.",
+    "positions": {
+      "political": {
+        "x": 614,
+        "y": 771,
+        "status": "mapped-symbol",
+        "confidence": "high",
+        "evidence": "Manually read center of the printed capital/seat star on the original 1536 × 1024 political reference; digitization tolerance ±4 pixels. This is an artwork position, not a surveyed coordinate."
+      }
+    }
+  },
+  {
+    "id": "V-CITY-dun-cindra",
+    "name": "Dun Cindra",
+    "type": "settlement",
+    "region": "Cindervale Successor States",
+    "power": "Cindervale Successor States",
+    "description": "A marked seat in the Cindervale Successor States.",
+    "canon": "mapped",
+    "knowledge": "known",
+    "source": "Campaign Bible Volume B Revision 05, B-C02; original political atlas printed label.",
+    "placementNote": "The name is mapped on the political reference. Its HD position has not been registered.",
+    "positions": {
+      "political": {
+        "x": 915,
+        "y": 775,
+        "status": "mapped-symbol",
+        "confidence": "high",
+        "evidence": "Manually read center of the printed capital/seat star on the original 1536 × 1024 political reference; digitization tolerance ±4 pixels. This is an artwork position, not a surveyed coordinate."
+      }
+    }
+  },
+  {
+    "id": "V-REG-thornweald",
+    "name": "Thornweald",
+    "type": "region",
+    "region": "Varelden",
+    "power": null,
+    "description": "Northern forest region recorded by the campaign atlas.",
+    "canon": "mapped region; provisional HD anchor",
+    "knowledge": "known",
+    "source": "Campaign Bible Volume B Revision 05, B-C01 and B-W01.",
+    "placementNote": "Approximate visual association only; no political boundary or precise extent is asserted.",
+    "positions": {
+      "hd": {
+        "x": 880,
+        "y": 260,
+        "radius": 180,
+        "status": "provisional",
+        "confidence": "low",
+        "evidence": "Broad relative region from B-C01/B-W01, associated manually with visible HD terrain. Dashed circle is a display uncertainty guide, not a measured confidence interval or border."
+      }
+    }
+  },
+  {
+    "id": "V-REG-brackenfold",
+    "name": "Brackenfold Highlands",
+    "type": "region",
+    "region": "Varelden",
+    "power": null,
+    "description": "Western highlands adjoining the Eldenmere region.",
+    "canon": "mapped region; provisional HD anchor",
+    "knowledge": "known",
+    "source": "Campaign Bible Volume B Revision 05, B-C01 and B-W01.",
+    "placementNote": "Approximate visual association only; no political boundary or precise extent is asserted.",
+    "positions": {
+      "hd": {
+        "x": 560,
+        "y": 360,
+        "radius": 120,
+        "status": "provisional",
+        "confidence": "low",
+        "evidence": "Broad relative region from B-C01/B-W01, associated manually with visible HD terrain. Dashed circle is a display uncertainty guide, not a measured confidence interval or border."
+      }
+    }
+  },
+  {
+    "id": "V-REG-eldenmere",
+    "name": "Eldenmere Lowlands",
+    "type": "region",
+    "region": "Varelden",
+    "power": null,
+    "description": "Central lowlands of Varelden.",
+    "canon": "mapped region; provisional HD anchor",
+    "knowledge": "known",
+    "source": "Campaign Bible Volume B Revision 05, B-C01 and B-W01.",
+    "placementNote": "Approximate visual association only; no political boundary or precise extent is asserted.",
+    "positions": {
+      "hd": {
+        "x": 850,
+        "y": 570,
+        "radius": 160,
+        "status": "provisional",
+        "confidence": "low",
+        "evidence": "Broad relative region from B-C01/B-W01, associated manually with visible HD terrain. Dashed circle is a display uncertainty guide, not a measured confidence interval or border."
+      }
+    }
+  },
+  {
+    "id": "V-REG-vaelcrest",
+    "name": "Vaelcrest Mountains",
+    "type": "region",
+    "region": "Varelden",
+    "power": null,
+    "description": "The southern mountain barrier and its holds.",
+    "canon": "mapped region; provisional HD anchor",
+    "knowledge": "known",
+    "source": "Campaign Bible Volume B Revision 05, B-C01 and B-W01.",
+    "placementNote": "Approximate visual association only; no political boundary or precise extent is asserted.",
+    "positions": {
+      "hd": {
+        "x": 780,
+        "y": 850,
+        "radius": 170,
+        "status": "provisional",
+        "confidence": "low",
+        "evidence": "Broad relative region from B-C01/B-W01, associated manually with visible HD terrain. Dashed circle is a display uncertainty guide, not a measured confidence interval or border."
+      }
+    }
+  },
+  {
+    "id": "V-REG-kharun",
+    "name": "Kharun Steppe",
+    "type": "region",
+    "region": "Varelden",
+    "power": null,
+    "description": "The northeastern steppe region.",
+    "canon": "mapped region; provisional HD anchor",
+    "knowledge": "known",
+    "source": "Campaign Bible Volume B Revision 05, B-C01 and B-W01.",
+    "placementNote": "Approximate visual association only; no political boundary or precise extent is asserted.",
+    "positions": {
+      "hd": {
+        "x": 1530,
+        "y": 355,
+        "radius": 150,
+        "status": "provisional",
+        "confidence": "low",
+        "evidence": "Broad relative region from B-C01/B-W01, associated manually with visible HD terrain. Dashed circle is a display uncertainty guide, not a measured confidence interval or border."
+      }
+    }
+  },
+  {
+    "id": "V-REG-cindervale",
+    "name": "Cindervale Expanse",
+    "type": "region",
+    "region": "Varelden",
+    "power": null,
+    "description": "The southeastern expanse associated with the successor states.",
+    "canon": "mapped region; provisional HD anchor",
+    "knowledge": "known",
+    "source": "Campaign Bible Volume B Revision 05, B-C01 and B-W01.",
+    "placementNote": "Approximate visual association only; no political boundary or precise extent is asserted.",
+    "positions": {
+      "hd": {
+        "x": 1390,
+        "y": 1050,
+        "radius": 170,
+        "status": "provisional",
+        "confidence": "low",
+        "evidence": "Broad relative region from B-C01/B-W01, associated manually with visible HD terrain. Dashed circle is a display uncertainty guide, not a measured confidence interval or border."
+      }
+    }
+  },
+  {
+    "id": "V-LOCAL-wrenford",
+    "name": "Wrenford",
+    "type": "settlement",
+    "region": "Wrenwater Vale · Westharrow · Aldraven",
+    "power": "Kingdom of Aldraven",
+    "description": "A village beside the old bridge and ford in Wrenwater Vale, Westharrow Shire, Kingdom of Aldraven. Farming, livestock, orchards, wool, timber and milling support the community. Its adopted customs include Longtable meals, Bridge Run games, Winter Story Nights and the Common Bell.",
+    "canon": "adopted regional canon; local detail working",
+    "knowledge": "known",
+    "source": "Campaign Bible Volume B Revision 05 B-C05; Volume D D-W02; adopted starting-region discussion in campaign log.",
+    "placementNote": "Exact atlas position unresolved (B-C05, B-W01, D-C08). No marker added. Relative travel statements do not establish a surveyed road or a kilometer distance.",
+    "positions": {}
+  },
+  {
+    "id": "V-LOCAL-wrenwater",
+    "name": "Wrenwater Vale",
+    "type": "region",
+    "region": "Wrenwater Vale · Westharrow · Aldraven",
+    "power": "Kingdom of Aldraven",
+    "description": "The starting region in Westharrow Shire, where the Eldenmere Lowlands rise toward the Brackenfold Highlands. Wrenwater is a local tributary in the Silverrun watershed.",
+    "canon": "adopted regional canon; local detail working",
+    "knowledge": "known",
+    "source": "Campaign Bible Volume B Revision 05 B-C05; Volume D D-W02; adopted starting-region discussion in campaign log.",
+    "placementNote": "Exact atlas position unresolved (B-C05, B-W01, D-C08). No marker added. Relative travel statements do not establish a surveyed road or a kilometer distance.",
+    "positions": {}
+  },
+  {
+    "id": "V-LOCAL-dunbarrow",
+    "name": "Dunbarrow",
+    "type": "settlement",
+    "region": "Wrenwater Vale · Westharrow · Aldraven",
+    "power": "Kingdom of Aldraven",
+    "description": "A market town approximately two days east of Wrenford by farm cart. This is a working travel estimate.",
+    "canon": "adopted regional canon; local detail working",
+    "knowledge": "known",
+    "source": "Campaign Bible Volume B Revision 05 B-C05; Volume D D-W02; adopted starting-region discussion in campaign log.",
+    "placementNote": "Exact atlas position unresolved (B-C05, B-W01, D-C08). No marker added. Relative travel statements do not establish a surveyed road or a kilometer distance.",
+    "positions": {}
+  },
+  {
+    "id": "V-LOCAL-harrowmere",
+    "name": "Harrowmere Hall",
+    "type": "settlement",
+    "region": "Wrenwater Vale · Westharrow · Aldraven",
+    "power": "Kingdom of Aldraven",
+    "description": "The local noble seat, about a day southeast of Wrenford. This is a working travel estimate.",
+    "canon": "adopted regional canon; local detail working",
+    "knowledge": "known",
+    "source": "Campaign Bible Volume B Revision 05 B-C05; Volume D D-W02; adopted starting-region discussion in campaign log.",
+    "placementNote": "Exact atlas position unresolved (B-C05, B-W01, D-C08). No marker added. Relative travel statements do not establish a surveyed road or a kilometer distance.",
+    "positions": {}
+  },
+  {
+    "id": "V-LOCAL-oldwood",
+    "name": "Oldwood",
+    "type": "region",
+    "region": "Wrenwater Vale · Westharrow · Aldraven",
+    "power": "Kingdom of Aldraven",
+    "description": "Woodland north and west of Wrenford. The precise edge and paths remain unmapped.",
+    "canon": "adopted regional canon; local detail working",
+    "knowledge": "known",
+    "source": "Campaign Bible Volume B Revision 05 B-C05; Volume D D-W02; adopted starting-region discussion in campaign log.",
+    "placementNote": "Exact atlas position unresolved (B-C05, B-W01, D-C08). No marker added. Relative travel statements do not establish a surveyed road or a kilometer distance.",
+    "positions": {}
+  },
+  {
+    "id": "V-LOCAL-westward-watch",
+    "name": "Westward Watch",
+    "type": "settlement",
+    "region": "Wrenwater Vale · Westharrow · Aldraven",
+    "power": "Kingdom of Aldraven",
+    "description": "A watch site two to three days into the western uplands from Wrenford. This is a working travel estimate.",
+    "canon": "adopted regional canon; local detail working",
+    "knowledge": "known",
+    "source": "Campaign Bible Volume B Revision 05 B-C05; Volume D D-W02; adopted starting-region discussion in campaign log.",
+    "placementNote": "Exact atlas position unresolved (B-C05, B-W01, D-C08). No marker added. Relative travel statements do not establish a surveyed road or a kilometer distance.",
+    "positions": {}
+  }
+]

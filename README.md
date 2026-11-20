@@ -1,30 +1,35 @@
-# Ironmarch Frontier — Living World Atlas
+# Varelden Campaign Atlas
 
-A free, interactive, player-facing schematic atlas for the **Ironmarch Frontier** Dungeons & Dragons campaign.
+Interactive player atlas at https://colack-ironmaw.github.io/ironmarch-world-atlas/ . This repository now serves Varelden. The prior Ironmarch atlas remains in Git history at commit `6ef0c20e8372e3eb93677fdb65866ecac8d830c9`; its campaign records are not mixed into Varelden.
 
-## Open the atlas
-After GitHub Pages is enabled at **Settings → Pages → Build and deployment → Deploy from a branch → main / (root)**:
+The default geographic background is the exact uploaded Varelden HD Map, optimized at its original 2048 × 1361 dimensions. Original SHA-256: `5994ec3608d84f22d574197f54e4d8636e5ba4cff583c221ed42575c8b3f048c`. WebP reduces transfer size without generating terrain, labels or settlements. The original is retained locally. Upscaling would add pixels without source detail; tiles are unnecessary for this source size.
 
-https://colack-ironmaw.github.io/ironmarch-world-atlas/
+## Use
 
-The site uses `index.html` and requires no build steps, dependencies or subscription. This URL is the expected destination; publication must be verified separately.
+Drag to pan, scroll or use +/− to zoom, and use Fit chart or the View menu to navigate. Search by place, region or political power. Click a marker or search result for evidence and placement confidence. Keyboard arrows pan the focused map; Home fits it. Bookmarks stay in this browser. Share links preserve the selected place and chart. Touch dragging and zoom buttons work on mobile.
 
-## Features
-- Pan, mouse-wheel zoom, plus/minus zoom, and region navigation
-- Searchable clickable settlement and site markers
-- Layer controls for settlements, sites, routes and region guides
-- Campaign-facing descriptions for known locations
-- Desktop and mobile responsive layout
+The HD chart and political reference have independent coordinate frames. Political pins follow printed stars, with an estimated ±4 pixel digitization tolerance. HD regional anchors are provisional, with dashed visual uncertainty guides. Those circles are not political boundaries or statistical estimates. No political outlines have been transformed onto the HD background. Decorative buildings do not prove named city locations.
 
-## World continuity and secrets
-This is a **schematic overview, not a scale geographic map**. Drawn positions, roads, shapes and boundaries do not establish canonical distances or directions. The location records identify actual established facts, including Ashstep Hollow being approximately six miles west of Kharost Redoubt. Do not infer route lengths from pixels.
+Wrenford and five local places are searchable but unpinned: Revision 05 leaves their exact placement unresolved. Three local travel relationships preserve source directions and day estimates without inventing road polylines, miles or kilometers. Known does not mean visited. No campaign time has been advanced.
 
-Only **player-known** locations and developments belong in this public repository. Never commit hidden encounter details, unrevealed locations, secret clocks, unrevealed NPC fates, or content from locked DM quest ledgers.
+## Files and maintenance
 
-The starting dataset was reconciled to the available player-facing Campaign Bible / Session Log and Session 012-ready handoff through **3 Highsun, 742 RC**, immediately before the Academy Terrace confrontation. Static atlas updates do not advance play.
+- `index.html`, `atlas.css`, `js/atlas.js`: reusable interface and engine.
+- `data/maps.json`: artwork, coordinate frames, view bounds, scale status.
+- `data/locations.json`: stable IDs, public descriptions, knowledge, provenance, placements.
+- `data/routes.json`: stable endpoint IDs, status, source, optional map-specific polyline geometry.
+- `data/factions.json`: nine mapped political powers; no invented territorial polygons.
+- `data/history.json`: dated public changes; maintenance dates are separate from campaign dates.
+- `assets/`: reviewed player-safe artwork only.
 
-## Maintenance
-The GitHub connector can edit `index.html` directly after new campaign discoveries or corrections. Its edits are **not automatic background synchronization**; an active update action is required. Maintain stable site IDs, compare established-play authority before changing information, and keep DM-only material out of public content.
+Run `node scripts/validate.cjs` before publishing. Preview through a local static HTTP server; module/JSON loading requires HTTP. GitHub Pages: deploy from `main`, root folder. No build step, keys, subscriptions, external fonts, analytics or mapping services are required.
 
-## Funding / license
-Free static hosting via GitHub Pages on a public GitHub repository. No paid mapping services, analytics, external assets, libraries or API keys required.
+## Publication rules
+
+This public repository must contain only explicitly reviewed player-safe content. Keep source campaign volumes, full atlases, private registers and quest data outside this repository. A hidden control is not access protection. The local DM atlas remains separate. Do not add unknown destinations to public data or history, including old revisions.
+
+Sources reviewed for the conversion: the exact uploaded Campaign Bible Volumes A–D Revision 05, Revision 05 canon audit, Expanded Cohabitation Manual Edition 05, Campaign Crafting Chat log, original HD artwork, political reference and existing offline atlas. Public geography is primarily sourced to Volume B B-C01/B-C02/B-C05/B-W01 and Volume D D-W02/D-C08. Audit and manual review governs private content handling; no private dossiers are reproduced here.
+
+Update a location using its existing ID. Separate canon status, placement authority, and player knowledge. A corrected coordinate does not constitute a discovery. Add public dated changes only when established through play. Routes may acquire geometry only in an identified image frame with supporting evidence. Do not derive surveyed distances from decorative scales. Review artwork itself for printed disclosures before publishing.
+
+GitHub changes happen during an active authorized update; browser changes do not write to GitHub and there is no continuous synchronization.

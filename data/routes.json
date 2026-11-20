@@ -1,0 +1,35 @@
+[
+  {
+    "id": "V-ROUTE-wrenford-dunbarrow",
+    "name": "Wrenford → Dunbarrow",
+    "from": "V-LOCAL-wrenford",
+    "to": "V-LOCAL-dunbarrow",
+    "description": "Approximately two days east by farm cart",
+    "status": "working source estimate",
+    "distance": null,
+    "geometry": null,
+    "source": "Volume B Revision 05 B-C05"
+  },
+  {
+    "id": "V-ROUTE-wrenford-harrowmere",
+    "name": "Wrenford → Harrowmere Hall",
+    "from": "V-LOCAL-wrenford",
+    "to": "V-LOCAL-harrowmere",
+    "description": "About one day southeast; travel mode unspecified",
+    "status": "working source estimate",
+    "distance": null,
+    "geometry": null,
+    "source": "Volume B Revision 05 B-C05"
+  },
+  {
+    "id": "V-ROUTE-wrenford-westward",
+    "name": "Wrenford → Westward Watch",
+    "from": "V-LOCAL-wrenford",
+    "to": "V-LOCAL-westward-watch",
+    "description": "Two to three days into western uplands; travel mode unspecified",
+    "status": "working source estimate",
+    "distance": null,
+    "geometry": null,
+    "source": "Volume B Revision 05 B-C05"
+  }
+]
