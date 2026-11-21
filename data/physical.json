@@ -1,0 +1,80 @@
+[
+  {
+    "id": "V-REG-thornweald",
+    "terrain": [
+      "forest"
+    ],
+    "watershed": null,
+    "elevation": null,
+    "hazards": [],
+    "source": "Campaign Bible Volume B Revision 05, B-C01 and B-W01."
+  },
+  {
+    "id": "V-REG-brackenfold",
+    "terrain": [
+      "highland"
+    ],
+    "watershed": null,
+    "elevation": null,
+    "hazards": [],
+    "source": "Campaign Bible Volume B Revision 05, B-C01 and B-W01."
+  },
+  {
+    "id": "V-REG-eldenmere",
+    "terrain": [
+      "lowland"
+    ],
+    "watershed": null,
+    "elevation": null,
+    "hazards": [],
+    "source": "Campaign Bible Volume B Revision 05, B-C01 and B-W01."
+  },
+  {
+    "id": "V-REG-vaelcrest",
+    "terrain": [
+      "mountain"
+    ],
+    "watershed": null,
+    "elevation": null,
+    "hazards": [],
+    "source": "Campaign Bible Volume B Revision 05, B-C01 and B-W01."
+  },
+  {
+    "id": "V-REG-kharun",
+    "terrain": [
+      "steppe"
+    ],
+    "watershed": null,
+    "elevation": null,
+    "hazards": [],
+    "source": "Campaign Bible Volume B Revision 05, B-C01 and B-W01."
+  },
+  {
+    "id": "V-REG-cindervale",
+    "terrain": [],
+    "watershed": null,
+    "elevation": null,
+    "hazards": [],
+    "source": "Campaign Bible Volume B Revision 05, B-C01 and B-W01."
+  },
+  {
+    "id": "V-LOCAL-wrenwater",
+    "terrain": [
+      "vale"
+    ],
+    "watershed": "Silverrun",
+    "elevation": null,
+    "hazards": [],
+    "source": "Campaign Bible Volume B Revision 05 B-C05; Volume D D-W02; adopted starting-region discussion in campaign log."
+  },
+  {
+    "id": "V-LOCAL-oldwood",
+    "terrain": [
+      "woodland"
+    ],
+    "watershed": null,
+    "elevation": null,
+    "hazards": [],
+    "source": "Campaign Bible Volume B Revision 05 B-C05; Volume D D-W02; adopted starting-region discussion in campaign log."
+  }
+]

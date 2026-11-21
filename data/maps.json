@@ -1,15 +1,15 @@
 [
   {
     "id": "hd",
-    "name": "Varelden \u00c2\u00b7 HD geographic chart",
+    "name": "Varelden Â· HD geographic chart",
     "shortName": "HD chart",
     "asset": "assets/varelden-hd.webp",
     "width": 3932,
     "height": 2614,
-    "source": "User-supplied Varelden HD Map.png, native 3932 \u00c3\u2014 2614; SHA-256 c4b46b892584911d1ec889a52a966418d110ef6ba6652ba71ab57db1b0460c53",
+    "source": "User-supplied Varelden HD Map.png, native 3932 Ã— 2614; SHA-256 c4b46b892584911d1ec889a52a966418d110ef6ba6652ba71ab57db1b0460c53",
     "coordinateSystem": "Source image pixels: x east, y south. Not surveyed longitude/latitude.",
     "calibration": null,
-    "caption": "HD map \u00c2\u00b7 user-supplied political layer \u00c2\u00b7 dashed location pins provisional",
+    "caption": "HD map Â· user-supplied political layer Â· dashed location pins provisional",
     "views": [
       {
         "id": "all",
@@ -23,7 +23,7 @@
       },
       {
         "id": "west",
-        "name": "Western uplands \u00c2\u00b7 broad view",
+        "name": "Western uplands Â· broad view",
         "bounds": [
           538,
           519,
@@ -55,11 +55,11 @@
     "overlay": {
       "id": "political-borders",
       "name": "Political borders",
-      "asset": "assets/varelden-border-overlay-v2.webp",
+      "asset": "assets/varelden-border-overlay-v3.webp",
       "width": 3932,
       "height": 2614,
-      "source": "User-supplied HD Political Borders Overlay v2",
-      "sha256": "c79195e10df6c11eee27fcfb566266b881d414590dfbc5110558ed969430eb2e",
+      "source": "Varelden HD Map Political Borders Overlay v3.png",
+      "sha256": "1c6bb605f36545e5b7acede2ac274de78c72ce324b6a69b91867e8fe09ca69dc",
       "status": "user-supplied boundaries; not a surveyed legal border",
       "defaultOpacity": 0.65
     }
