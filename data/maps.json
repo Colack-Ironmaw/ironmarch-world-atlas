@@ -1,15 +1,15 @@
 [
   {
     "id": "hd",
-    "name": "Varelden · HD geographic chart",
+    "name": "Varelden \u00c2\u00b7 HD geographic chart",
     "shortName": "HD chart",
     "asset": "assets/varelden-hd.webp",
     "width": 3932,
     "height": 2614,
-    "source": "User-supplied Varelden HD Map.png, native 3932 × 2614; SHA-256 c4b46b892584911d1ec889a52a966418d110ef6ba6652ba71ab57db1b0460c53",
+    "source": "User-supplied Varelden HD Map.png, native 3932 \u00c3\u2014 2614; SHA-256 c4b46b892584911d1ec889a52a966418d110ef6ba6652ba71ab57db1b0460c53",
     "coordinateSystem": "Source image pixels: x east, y south. Not surveyed longitude/latitude.",
     "calibration": null,
-    "caption": "HD map · user-supplied political layer · dashed location pins provisional",
+    "caption": "HD map \u00c2\u00b7 user-supplied political layer \u00c2\u00b7 dashed location pins provisional",
     "views": [
       {
         "id": "all",
@@ -23,7 +23,7 @@
       },
       {
         "id": "west",
-        "name": "Western uplands · broad view",
+        "name": "Western uplands \u00c2\u00b7 broad view",
         "bounds": [
           538,
           519,
@@ -55,67 +55,13 @@
     "overlay": {
       "id": "political-borders",
       "name": "Political borders",
-      "asset": "assets/varelden-border-overlay.webp",
+      "asset": "assets/varelden-border-overlay-v2.webp",
       "width": 3932,
       "height": 2614,
-      "source": "User-supplied HD political borders overlay and matching composite reference",
-      "sha256": "e066fc3eb4f53d4fb622131e36aae0974fab3eaa8e0d6a251e78a5c5ffc8a9b5",
+      "source": "User-supplied HD Political Borders Overlay v2",
+      "sha256": "c79195e10df6c11eee27fcfb566266b881d414590dfbc5110558ed969430eb2e",
       "status": "user-supplied boundaries; not a surveyed legal border",
       "defaultOpacity": 0.65
     }
-  },
-  {
-    "id": "political",
-    "name": "Varelden · political reference",
-    "shortName": "political reference",
-    "asset": "assets/varelden-political.webp",
-    "width": 1536,
-    "height": 1024,
-    "source": "Varelden: The Recovering World — Political Atlas; Volume B Revision 05 B-C02.",
-    "coordinateSystem": "Independent source image pixels. No transform to HD chart.",
-    "calibration": null,
-    "caption": "Independent political chart · pins follow printed symbols",
-    "views": [
-      {
-        "id": "all",
-        "name": "Whole political chart",
-        "bounds": [
-          0,
-          0,
-          1536,
-          1024
-        ]
-      },
-      {
-        "id": "aldraven",
-        "name": "Aldraven & western neighbors",
-        "bounds": [
-          180,
-          270,
-          560,
-          400
-        ]
-      },
-      {
-        "id": "kharun",
-        "name": "Kharun frontier",
-        "bounds": [
-          720,
-          160,
-          530,
-          340
-        ]
-      },
-      {
-        "id": "south",
-        "name": "Vaelcrest & Cindervale",
-        "bounds": [
-          250,
-          500,
-          900,
-          400
-        ]
-      }
-    ]
   }
 ]
