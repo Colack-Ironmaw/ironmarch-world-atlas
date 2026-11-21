@@ -8,3 +8,7 @@
 #personal-tools input:not([type=checkbox]),#personal-tools select,#personal-tools textarea{width:100%;max-width:100%}#personal-tools textarea{background:#173332;color:var(--ink);border:1px solid var(--line);border-radius:5px;min-height:65px;padding:7px;font:inherit}#personal-tools button{font-size:11px;margin:4px 3px 0 0}#personal-tools label{font-size:11px}#personal-tools .filters label{width:50%;min-width:0}#personal-tools .filters input{min-width:0}#personal-list{font-size:12px}.personal-pin{cursor:grab;pointer-events:bounding-box}.personal-label{fill:#fff5cc;paint-order:stroke;stroke:#071a21;stroke-width:3;font:12px system-ui}.personal-pin:focus circle{stroke:white;stroke-width:3}#coordinate-readout{font-variant-numeric:tabular-nums}#map{display:none}
 @media(min-width:801px){.workspace{position:sticky;top:0;align-self:start}}
 label[for=map]{display:none}
+
+.symbol-picker { display: grid; grid-template-columns: 36px minmax(0, 1fr); align-items: center; gap: 8px; }
+#marker-preview { width: 36px; height: 36px; border-radius: 50%; background: #174541; border: 2px solid #ffe2a1; cursor: default; }
+.cartographic-glyph { fill: none; stroke: #fff4cc; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; pointer-events: none; }
