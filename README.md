@@ -24,6 +24,16 @@ Transparent icons create no map symbol, label, clickable target or public-map se
 
 ## Saving and backups
 
+### Travel paths
+
+Open **Travel paths** inside the personal tools. Choose **New path**, name it, select Road, Trail / track, River boat passage, Barge route, Ferry crossing or Shipping lane, and click successive points along the map. Choose **Save path** when finished. All paths are personal HD-map records; drawing a route does not establish its geography or advance campaign time.
+
+Select a saved path and choose **Edit selected path** to change its details or shape. **Draw / extend** appends points, **Move points** lets you drag handles, and **Insert bend** inserts a point near the clicked segment. The point selector and X/Y fields allow exact adjustment. Remove a point, undo shape changes, reverse a path, or discard the draft. Shape locks protect geometry while allowing notes and other details to be edited. One-way routes show arrows from the first point toward the last; reversing swaps the named endpoints too. Changes take effect when you save the path.
+
+Record endpoints, source, authority and conditions in the editor. Paths start as Proposed; confirmation is an explicit user choice. Route length sums the drawn segments, using the existing personal calibration when present and source pixels otherwise. It does not calculate travel times, river flow or navigability. Use the visibility checkbox to hide personal paths.
+
+Saved routes use the optional `travelPaths` array in the version 1 personal backup. Existing backups without that field still restore exactly. New exports include saved paths together with markers, boundaries, party and scale. Save or discard a path draft before exporting. Restore replaces all personal data, including routes; export your current browser save first. Personal paths are never automatically published.
+
 Party position, personal markers and calibration save in local browser storage for this site. They do not sync to GitHub, another browser or device. Export personal backup creates a portable JSON file. Restore backup validates and replaces personal data; export first if you want to preserve the current state. Storage failures are reported and export remains available. Ruler points are temporary. Location bookmarks remain separate.
 
 ## Architecture and maintenance

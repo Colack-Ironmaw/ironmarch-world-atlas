@@ -1,4 +1,4 @@
-import {initEditor} from './tools.js';
+import {initEditor} from './tools.js?v=travel-paths-1';
 const $=id=>document.getElementById(id), NS='http://www.w3.org/2000/svg';
 const text=(tag,value,parent)=>{const e=document.createElement(tag);e.textContent=value;parent.append(e);return e;};
 const shape=(tag,attrs,parent)=>{const e=document.createElementNS(NS,tag);for(const [k,v] of Object.entries(attrs))e.setAttribute(k,v);parent.append(e);return e;};
